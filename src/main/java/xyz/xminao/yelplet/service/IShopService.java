@@ -10,4 +10,6 @@ public interface IShopService extends IService<Shop> {
     // 根据商户ID查询商户
     Result queryById(Long id);
 
+    Result update(Shop shop);
+
 }
